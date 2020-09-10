@@ -7,12 +7,12 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 Gem::Specification.new do |spec|
   spec.name          = "pading"
   spec.version       = Pading::VERSION
-  spec.authors       = ["liym"]
-  spec.email         = ["15079447645@163.com"]
-
+  spec.authors       = ["liym0723"]
+  spec.email         = "15079447645@163.com"
   spec.summary       = %q{李勇明 分页模仿}
+
   spec.description   = %q{参照 kaminari 所写的分页}
-  # spec.homepage      = "暂时是本地"
+  spec.homepage      = "https://github.com/liym0723/pading"
   spec.license       = "MIT"
 
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
