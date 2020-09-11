@@ -10,4 +10,4 @@ end
 require 'pading/config'
 # require 'pading/drawing'
 require 'pading/activerecord'
-# require 'pading/actionview'
+require 'pading/actionview'
