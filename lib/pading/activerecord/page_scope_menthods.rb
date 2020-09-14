@@ -2,7 +2,6 @@ module Pading
   module PageScopeMethods
 
     def per(num, max_per_page: nil)
-      # offset_value  limit_value 元编程自动生成的查询
       if (n = num.to_i ) < 0 ||  !(/^\d/ =~ num.to_s)
         self
       elsif n.zero? # zero 是否为0
@@ -15,13 +14,17 @@ module Pading
 
     # 获取当前page
     def current_page
-      (offset_value / limit_value) + 1
+      # offset_value  limit_value 元编程自动生成的查询
+      # limit_value 每一页多少个
+      # offset_value 从第几个开始查询
+     (offset_value / limit_value) + 1
     end
 
 
     def total_count(column_name = :all, _options = nil)
       return @total_count if defined?(@total_count) && @total_count
       c = except(:offset, :limit, :order)
+      # TODO references_eager_loaded_tables? API 没有这个方法的描述
       c = c.except(:includes) unless references_eager_loaded_tables?
       c = c.count(column_name)
       @total_count = if c.is_a?(Hash) || c.is_a?(ActiveSupport::OrderedHash)

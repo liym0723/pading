@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb0f6f3c-7fa5-4dbf-94f4-a2e16c806fef" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/generators/pading/views_generator.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/pading.rb" afterPath="$PROJECT_DIR$/lib/pading.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/pading/actionview.rb" afterPath="$PROJECT_DIR$/lib/pading/actionview.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/pading/activerecord.rb" afterPath="$PROJECT_DIR$/lib/pading/activerecord.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pading/_paginator.html.erb" afterPath="$PROJECT_DIR$/app/views/pading/_paginator.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/pading/views_generator.rb" afterPath="$PROJECT_DIR$/lib/generators/pading/views_generator.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/pading/actionview/helper_menthods.rb" afterPath="$PROJECT_DIR$/lib/pading/actionview/helper_menthods.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/pading/actionview/paginator.rb" afterPath="$PROJECT_DIR$/lib/pading/actionview/paginator.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/pading/actionview/tags.rb" afterPath="$PROJECT_DIR$/lib/pading/actionview/tags.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/pading/activerecord/active_record_extension.rb" afterPath="$PROJECT_DIR$/lib/pading/activerecord/active_record_extension.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/pading/activerecord/active_record_model_extension.rb" afterPath="$PROJECT_DIR$/lib/pading/activerecord/active_record_model_extension.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/pading/activerecord/page_scope_menthods.rb" afterPath="$PROJECT_DIR$/lib/pading/activerecord/page_scope_menthods.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/pading/config.rb" afterPath="$PROJECT_DIR$/lib/pading/config.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/pading/version.rb" afterPath="$PROJECT_DIR$/lib/pading/version.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,31 +21,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="tags.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/pading/actionview/tags.rb">
+      <file leaf-file-name="active_record_extension.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/pading/activerecord/active_record_extension.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="575">
+              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config_generator.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/generators/pading/config_generator.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="12" column="75" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="75" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="active_record_model_extension.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/pading/activerecord/active_record_model_extension.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
-              <caret line="66" column="20" lean-forward="false" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
+              <caret line="15" column="53" lean-forward="true" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="version.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/pading/version.rb">
+      <file leaf-file-name="views_generator.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/generators/pading/views_generator.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="299">
+              <caret line="13" column="20" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pading.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/pading.rb">
+      <file leaf-file-name="pading_config.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/generators/pading/templates/pading_config.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+            <state relative-caret-position="92">
+              <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="helper_menthods.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/pading/actionview/helper_menthods.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="paginator.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/pading/actionview/paginator.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1477">
+              <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -63,40 +102,42 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>active_record_model_extension</find>
-      <find>ctiveSupport</find>
-      <find>kami</find>
-      <find>Pading::ActiveRecordExtension</find>
-      <find>Delete this and the text above, and describe your gem</find>
-      <find>authors</find>
-      <find>test_page</find>
-      <find>PageScopeMethods</find>
-      <find>ActiveRecord</find>
-      <find>ActiveRecordModelExtension</find>
-      <find>Pading::Actionview</find>
-      <find>Helpers</find>
-      <find>Pading::Tag</find>
-      <find>Pading::Actionview::Tag</find>
-      <find>merge</find>
-      <find>locals</find>
-      <find>param_name</find>
-      <find>PageProxy</find>
-      <find>relevant_pages</find>
-      <find>first_page</find>
-      <find>def render</find>
-      <find>FirstPage</find>
-      <find>paginator</find>
-      <find>eval</find>
-      <find>-</find>
-      <find>current</find>
-      <find>relevant</find>
-      <find>@windo</find>
       <find>display_tag</find>
       <find>partial_path</find>
+      <find>test_</find>
+      <find>@output_buffer</find>
+      <find>limit_value</find>
+      <find>render</find>
+      <find>first</find>
+      <find>current_page_num</find>
+      <find>each_page</find>
+      <find>current_page</find>
+      <find>def las</find>
+      <find>next_page</find>
+      <find>FirstPage</find>
+      <find>@options[:current_page]</find>
+      <find>def last?</find>
+      <find>def page_tag(page)</find>
+      <find>options[:current_page]</find>
+      <find>PageProxy</find>
+      <find>window</find>
+      <find>@options[:page]</find>
+      <find>.to_s</find>
+      <find>8 -</find>
+      <find>def per</find>
+      <find>def page</find>
+      <find>::Actio</find>
+      <find>Paginator.</find>
+      <find>to_s</find>
+      <find>pp</find>
+      <find>page:</find>
+      <find>test_page</find>
     </findStrings>
     <dirStrings>
       <dir>E:\lym_project\gem\pading\lib\pading\actionview</dir>
+      <dir>E:\lym_project\gem\pading\app</dir>
       <dir>E:\lym_project\gem\pading</dir>
+      <dir>E:\lym_project\gem\pading\lib</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -111,7 +152,6 @@
         <option value="$PROJECT_DIR$/lib/pading/activerecord/config.rb" />
         <option value="$PROJECT_DIR$/lib/generators/pading/templates/pading_config.rb" />
         <option value="$PROJECT_DIR$/lib/generators/pading/config_generator.rb" />
-        <option value="$PROJECT_DIR$/lib/pading/activerecord/active_record_extension.rb" />
         <option value="$PROJECT_DIR$/pading.gemspec" />
         <option value="$PROJECT_DIR$/lib/pading.rb" />
         <option value="$PROJECT_DIR$/lib/generators/pading/view_generator.rb" />
@@ -120,18 +160,19 @@
         <option value="$PROJECT_DIR$/app/views/pading/_next_page.html.erb" />
         <option value="$PROJECT_DIR$/app/views/pading/_prev_page.html.erb" />
         <option value="$PROJECT_DIR$/app/views/pading/_gap.html.erb" />
-        <option value="$PROJECT_DIR$/lib/generators/pading/views_generator.rb" />
-        <option value="$PROJECT_DIR$/lib/pading/activerecord/active_record_model_extension.rb" />
         <option value="$PROJECT_DIR$/lib/pading/activerecord.rb" />
-        <option value="$PROJECT_DIR$/lib/pading/activerecord/page_scope_menthods.rb" />
         <option value="$PROJECT_DIR$/lib/pading/helpers/paginator.rb" />
         <option value="$PROJECT_DIR$/lib/pading/actionview.rb" />
         <option value="$PROJECT_DIR$/lib/pading/config.rb" />
-        <option value="$PROJECT_DIR$/lib/pading/actionview/paginator.rb" />
+        <option value="$PROJECT_DIR$/lib/pading/version.rb" />
+        <option value="$PROJECT_DIR$/lib/pading/activerecord/active_record_model_extension.rb" />
         <option value="$PROJECT_DIR$/lib/pading/actionview/tags.rb" />
         <option value="$PROJECT_DIR$/lib/pading/actionview/helper_menthods.rb" />
         <option value="$PROJECT_DIR$/app/views/pading/_paginator.html.erb" />
-        <option value="$PROJECT_DIR$/lib/pading/version.rb" />
+        <option value="$PROJECT_DIR$/lib/generators/pading/views_generator.rb" />
+        <option value="$PROJECT_DIR$/lib/pading/actionview/paginator.rb" />
+        <option value="$PROJECT_DIR$/lib/pading/activerecord/page_scope_menthods.rb" />
+        <option value="$PROJECT_DIR$/lib/pading/activerecord/active_record_extension.rb" />
       </list>
     </option>
   </component>
@@ -162,7 +203,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -179,20 +219,28 @@
             <path>
               <item name="pading" type="b2602c69:ProjectViewProjectNode" />
               <item name="pading" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pading" type="b2602c69:ProjectViewProjectNode" />
               <item name="pading" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="generators" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pading" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pading" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="generators" type="462c0819:PsiDirectoryNode" />
               <item name="pading" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pading" type="b2602c69:ProjectViewProjectNode" />
               <item name="pading" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="generators" type="462c0819:PsiDirectoryNode" />
+              <item name="pading" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pading" type="b2602c69:ProjectViewProjectNode" />
@@ -207,16 +255,24 @@
               <item name="pading" type="462c0819:PsiDirectoryNode" />
               <item name="actionview" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="pading" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pading" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="pading" type="462c0819:PsiDirectoryNode" />
+              <item name="activerecord" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../k" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../kaminari-master" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -255,28 +311,29 @@
       <option name="presentableId" value="Default" />
       <updated>1599697704909</updated>
       <workItem from="1599697706302" duration="24349000" />
-      <workItem from="1599782125726" duration="21959000" />
+      <workItem from="1599782125726" duration="24806000" />
+      <workItem from="1600042697617" duration="22874000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46308000" />
+    <option name="totallyTimeSpent" value="72029000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25266525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2553305" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -293,11 +350,43 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/lib/pading/activerecord/active_record_extension.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/pading/activerecord/active_record_model_extension.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/pading/actionview/helper_menthods.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="34" lean-forward="true" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/generators/pading/views_generator.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="76" lean-forward="true" selection-start-line="5" selection-start-column="76" selection-end-line="5" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/pading/config.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -418,14 +507,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generators/pading/templates/pading_config.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/pading/drawing.rb" />
     <entry file="file://$PROJECT_DIR$/pading-0.1.0.gem">
       <provider selected="true" editor-type-id="text-editor">
@@ -443,18 +524,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generators/pading/view_generator.rb">
+    <entry file="file://$PROJECT_DIR$/lib/generators/pading/view_generator.rb" />
+    <entry file="file://D:/utils/ruby/ruby/Ruby23-x64/lib/ruby/site_ruby/2.3.0/bundler/vendor/molinillo/lib/molinillo/dependency_graph/tag.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="161">
+          <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/pading/helpers/paginator.rb" />
+    <entry file="file://$PROJECT_DIR$/lib/pading/config.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pading/_first_page.html.erb">
+    <entry file="file://$PROJECT_DIR$/lib/pading/version.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pading/_gap.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
-          <caret line="9" column="45" lean-forward="false" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -475,58 +573,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pading/_page.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/pading/_prev_page.html.erb">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pading/_first_page.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
-          <caret line="9" column="46" lean-forward="false" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+          <caret line="9" column="45" lean-forward="false" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs23/file.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="987">
+          <caret line="504" column="13" lean-forward="false" selection-start-line="504" selection-start-column="13" selection-end-line="504" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://D:/utils/ruby/ruby/Ruby23-x64/lib/ruby/site_ruby/2.3.0/bundler/vendor/thor/lib/thor/actions.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
+        <state relative-caret-position="297">
           <caret line="26" column="10" lean-forward="false" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generators/pading/config_generator.rb">
+    <entry file="file://$PROJECT_DIR$/lib/pading/activerecord.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
-          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+          <caret line="3" column="46" lean-forward="true" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generators/pading/views_generator.rb">
+    <entry file="file://$PROJECT_DIR$/lib/pading.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/pading/activerecord/page_scope_menthods.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/utils/ruby/ruby/Ruby23-x64/lib/ruby/site_ruby/2.3.0/bundler/vendor/molinillo/lib/molinillo/dependency_graph/tag.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/pading/helpers/paginator.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="276">
+          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -539,74 +637,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pading/_gap.html.erb">
+    <entry file="file://$PROJECT_DIR$/lib/pading/actionview/tags.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pading/_page.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/pading/activerecord/active_record_extension.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="39" lean-forward="true" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/pading/activerecord/active_record_model_extension.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/pading/activerecord.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="44" lean-forward="false" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/pading/actionview.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="37" lean-forward="false" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/pading/config.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/pading/actionview/helper_menthods.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/pading/actionview/paginator.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-795">
-          <caret line="19" column="7" lean-forward="false" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        <state relative-caret-position="-644">
+          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -614,31 +648,81 @@
     <entry file="file://$PROJECT_DIR$/app/views/pading/_paginator.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
-          <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+          <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#319#0#RHTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/pading/actionview.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/pading/actionview/tags.rb">
+    <entry file="file://$PROJECT_DIR$/lib/pading/activerecord/page_scope_menthods.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="27" column="68" lean-forward="true" selection-start-line="27" selection-start-column="68" selection-end-line="27" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/generators/pading/config_generator.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="75" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/generators/pading/views_generator.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="20" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/generators/pading/templates/pading_config.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/pading/actionview/helper_menthods.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="66" column="20" lean-forward="false" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
+          <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/pading/version.rb">
+    <entry file="file://$PROJECT_DIR$/lib/pading/actionview/paginator.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="-1477">
+          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/pading.rb">
+    <entry file="file://$PROJECT_DIR$/lib/pading/activerecord/active_record_model_extension.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        <state relative-caret-position="345">
+          <caret line="15" column="53" lean-forward="true" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/pading/activerecord/active_record_extension.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>

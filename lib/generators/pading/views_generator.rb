@@ -2,33 +2,19 @@
 require 'pp'
 module Pading
   module Generators
-    class ViewsGenerator < Rails::Generators::NamedBase
+    class ViewsGenerator < Rails::Generators::Base
+      # source_root 存储并返回定义这个类所在的位置
+      # __FILE__ -> E:/lym_project/gem/pading/lib/generators/pading/views_generator.rb"
+      # File.expand_path('../../../../app/views/pading', __FILE__) ->E:/lym_project/gem/pading/app/views/pading
+      # E:/lym_project/gem/pading/app/views/pading
       source_root File.expand_path('../../../../app/views/pading', __FILE__)
 
       def copy_or_fetch
-        return copy_default_views if file_name == 'default'
-      end
-
-      private
-      def copy_default_views
         # self.class.source_root 它将返回其路径名 -> E:/lym_project/gem/pading/app/views/pading/*.html.erb"
-        file = File.join self.class.source_root, "*.html.erb"
-
-        # 遍历目录下的全部文件 取出name. 拷贝
-        Dir.glob(file).map{|f| File.basename f}.each do |f|
-          copy_file f, view_path_for(f)
-        end
+        # 复制文件到指定文件夹
+        FileUtils.cp_r "#{self.class.source_root}/.", 'app/views/pading'
       end
 
-
-      # 拷贝到的文件路径
-      def view_path_for file
-        ['app','views',views_prefix,'pading', File.basename(file)].compact.join("/")
-      end
-
-      def views_prefix
-        options[:views_prefix].try(:to_s)
-      end
     end
   end
 end

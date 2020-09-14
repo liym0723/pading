@@ -8,11 +8,14 @@ module Pading
     def initialize(template, **options)
       @template = template
       @options = options
-      @options[:current_page] = PageProxy.new(@options, options[:current_page_num])
-
+      @options[:current_page] = PageProxy.new(@options, options[:current_page_number])
+      #
+      # undefined method `safe_append='
+      # 允许写 多个 <% %>
       @output_buffer = if defined?(::ActionView::OutputBuffer)
                          ::ActionView::OutputBuffer.new
                        elsif template.instance_variable_get(:@output_buffer)
+                         # instance_variable_get 获取并返回对象的实例变量的值。 如果未定义实例变量，则返回nil
                          template.instance_variable_get(:@output_buffer).class.new
                        else
                          ActiveSupport::SafeBuffer.new
@@ -44,12 +47,22 @@ module Pading
 
 
     def each_page
+      # Kaminari.config.window = 1
+      window = 1
+      each_start = @options[:current_page_number] - 1 - window
+      each_end = @options[:current_page_number] + 1 + window
+      each_start = 1 if each_start < window
+      each_end = @options[:total_pages] if each_end > @options[:total_pages]
+
+      (each_start..each_end).each do |page|
+        yield PageProxy.new(@options,page)
+      end
 
     end
 
 
     def page_tag(page)
-      @last = Page.new @template, @options.merge(page: page)
+     Page.new @template, @options.merge(page: page)
     end
 
     class PageProxy
@@ -68,13 +81,34 @@ module Pading
       end
 
       def prev?
-        @page == @options[:current_page] - 1
+        @page == @options[:current_page_number] - 1
       end
 
       def next?
-        @page == @options[:current_page] + 1
+        @page == @options[:current_page_number] + 1
       end
 
+      def display_tag?
+        (@options[:current_page_number] - @page ).abs <= 1
+      end
+
+
+      def current?
+        @options[:current_page_number] == @page
+      end
+
+      def rel
+        if next?
+          '下一页'
+        elsif prev?
+          '上一页'
+        end
+      end
+
+
+      def to_s #:nodoc:
+        @page.to_s
+      end
 
     end
   end

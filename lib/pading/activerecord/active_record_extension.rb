@@ -10,6 +10,7 @@ module Pading
       def inherited(kls) #:nodoc:
         # inherited 当前类定义子类时，就会触发此回调
         super
+        pp "===1111111111111111111"
         kls.send(:include, Pading::ActiveRecordModelExtension) if kls.superclass == ::ActiveRecord::Base
       end
     end

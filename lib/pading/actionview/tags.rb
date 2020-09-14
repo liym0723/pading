@@ -64,21 +64,22 @@ module Pading
             class LastPage < Tag
                 include Link
                 def page
-                   1
+                    @options[:total_pages]
                 end
             end
 
             class PrevPage < Tag
                 include Link
                 def page
-                   1
+
+                    @options[:current_page_number] - 1
                 end
             end
 
             class NextPage < Tag
                 include Link
                 def page
-                   1
+                    @options[:current_page_number] + 1
                 end
             end
 

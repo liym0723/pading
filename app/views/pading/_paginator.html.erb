@@ -6,14 +6,17 @@
     remote:        data-remote
     paginator:     the paginator that renders the pagination tags inside
 -%>
-<% pp paginator %>
 <%= paginator.render do -%>
-  <nav class="pagination" role="navigation" aria-label="pager">
-    <%= first_page_tag unless current_page.first? %>
-    <%= prev_page_tag unless current_page.first? %>
+    <nav class="pagination" role="navigation" aria-label="pager">
+      <%= first_page_tag unless current_page.first? %>
+      <%= prev_page_tag unless current_page.first? %>
 
+      <!-- 页码 -->
+      <% each_page do |page| %>
+          <%= page.display_tag? ? (page_tag page) : (gap_tag) %>
+      <% end %>
 
       <%= next_page_tag unless current_page.last? %>
       <%= last_page_tag unless current_page.last? %>
-  </nav>
+    </nav>
 <% end -%>

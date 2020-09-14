@@ -13,7 +13,7 @@ module Pading
     eval <<-RUBY, nil, __FILE__, __LINE__ + 1
         def self.#{Pading.config.page_method_name}(num=nil)
           per_page = Pading.config.default_per_page
-          num = (num.to_i - 1) < 0 ? 0 : num - 1
+          num = (num.to_i - 1) < 0 ? 0 : num.to_i - 1
           # extending 给一个 scope 增加方法，返回的仍然是 scope.
           # 如果传递的是 block, 则可以直接调用 block 里面的方法, 如
           # 果传递的是 module, 则可以调用 module 里面的方法。
@@ -22,6 +22,7 @@ module Pading
           limit(per_page).offset(per_page * num).extending do
             include Pading::PageScopeMethods
           end
+          
         end
      RUBY
 
